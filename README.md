@@ -1,113 +1,115 @@
-![Portfolio Preview](https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/public/assets/seo/og-image.png?raw=true)
+# 🚀 Portfolio Pessoal - Leonardo Alves
 
-# 🚀 My Portfolio Website
+![Portfolio Preview](./public/assets/meuu.png)
 
-Welcome to the repository for my personal portfolio website! 🎉 This project is a culmination of creativity, technology, and my dedication to showcasing my skills, projects, and personality in a visually stunning and interactive manner.
+Bem-vindo ao repositório do meu portfólio pessoal! 🎉 Este projeto é uma combinação de criatividade, tecnologia e dedicação para apresentar minhas habilidades, projetos e personalidade de forma visualmente atraente e interativa.
 
-### Live preview: https://www.abhijitzende.com/
+## 👨‍💻 Sobre Mim
 
-![Preview](https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/public/assets/preview_video.gif?raw=true)
+Sou Leonardo Alves Braz, **Engenheiro da Computação** com foco em **Sistemas Embarcados**, **Machine Learning** e **FULL STACK**. Apaixonado por desenvolver soluções tecnológicas que conectam hardware e software para resolver problemas reais.
 
-https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/preview_video.mp4
 
-This project is **inspired** by the amazing work of [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio). His innovative approach to web design and attention to detail has been a huge influence. Thank you, Naresh! 🙏
+## 🔥 Destaques do Portfólio
 
-## 🔥 Features
+### 🎹 **Animações 3D Interativas**
+- Teclado interativo personalizado feito com **Spline**
+- Cada tecla representa uma habilidade tecnológica com títulos e descrições ao passar o mouse
+- Interações 3D suaves e responsivas que cativam os visitantes
 
-Here are the key highlights of my portfolio:
+### ✨ **Interações e Animações Fluidas**
+- Alimentado por **GSAP** e **Framer Motion**, oferecendo animações suaves em scroll, hover e revelação de elementos
+- Design de movimento criativo que aprimora a narrativa
 
-### 🎹 **3D Interactive Animations**
-- Features a custom-made interactive keyboard built with **Spline**.
-- Each keycap represents a skill and reveals titles and descriptions on hover for an immersive experience.
-- Smooth, responsive 3D interactions that captivate visitors.
+### 🌌 **Design Temático Espacial**
+- Partículas flutuando em um fundo cósmico escuro simulam uma atmosfera espacial
+- Visual único e futurista
 
-### ✨ **Slick Interactions & Animations**
-- Powered by **GSAP** and **Framer Motion**, delivering buttery-smooth animations on scroll, hover, and element reveals.
-- Creative motion designs that enhance storytelling and keep users engaged.
+### 📱 **Design Responsivo**
+- Layout totalmente responsivo que funciona perfeitamente em todos os dispositivos
+- Otimizado para experiências desktop e mobile
 
-### 🌌 **Space-Themed Design**
-- Particles floating on a dark, cosmic background simulate an outer-space vibe.
-- Adds a unique and futuristic look to the portfolio.
+### 💼 **Projetos Destacados**
+- **AquaGuard** - Sistema mobile de monitoramento de qualidade da água (Flutter/Firebase)
+- **Aura Weather** - App moderno de clima com React, TypeScript e Vite
+- **Processamento de Imagens Médicas** - ML aplicado em diagnóstico com TensorFlow e OpenCV
+- **Embarca Tech** - Projetos de sistemas embarcados com Raspberry Pi e Arduino
+- **Cidade Inteligente** - Soluções IoT para automação urbana
 
-### 📱 **Responsive Design**
-- Fully responsive layout ensures the website looks and functions beautifully on all devices.
-- Optimized for both desktop and mobile experiences.
+## 🛠️ Stack Tecnológico
 
-### 🧠 **Innovative Web Design**
-- Combines cutting-edge technology with an intuitive user experience.
-- Creative use of animations and visuals to push the boundaries of modern web design.
+- **Frontend:** Next.js 14, React 18, TypeScript, Tailwind CSS, Shadcn UI, Aceternity UI
+- **Animações:** GSAP, Framer Motion, Spline Runtime
+- **Outras Ferramentas:** Resend, Socket.io, Zod
 
-## 🛠️ Tech Stack
+## 💻 Habilidades Técnicas
 
-The portfolio website is built using the following tools and technologies:
+- **Linguagens:** Python, C, C++, Java, TypeScript, Dart
+- **Mobile:** Flutter, React Native
+- **Machine Learning:** TensorFlow, OpenCV, Scikit-learn
+- **Sistemas Embarcados:** Arduino, Raspberry Pi, FPGA
+- **Web:** React, Next.js, Tailwind CSS
+- **IoT & Automação:** Sensores, Comunicação UART/Bluetooth
+- **Ferramentas:** Git, Docker, LaTeX, VS Code
 
-- **Frontend:** Next.js, React, Tailwind CSS, Shadcn, Aceternity UI
-- **Animations:** GSAP, Framer Motion, Spline Runtime
-- **Other Tools:** Resend, Socket.io, Zod
+## 🌟 Como Executar Localmente
 
-## 🌟 Getting Started
-
-1. Clone this repository:
+1. Clone este repositório:
    ```bash
-   git clone https://github.com/Abhiz2411/3D-interactive-portfolio.git
+   git clone https://github.com/Leonardobrzz/portfolio-pessoal-leonardo-alves.git
    ```
 
-2. Navigate to the project directory:
+2. Navegue até o diretório do projeto:
    ```bash
-   cd 3D-interactive-portfolio
+   cd portfolio-pessoal-leonardo-alves
    ```
 
-3. Install dependencies:
+3. Instale as dependências:
    ```bash
    npm install
    ```
 
-4. Set up environment variables:
+4. Configure as variáveis de ambiente (opcional para formulário de contato):
    ```bash
-   # Create a .env.local file in the root directory
+   # Crie um arquivo .env.local na raiz do projeto
    touch .env.local
 
-   # Add your Resend API key
-   RESEND_API_KEY=your_resend_api_key_here
+   # Adicione sua chave API do Resend
+   RESEND_API_KEY=sua_chave_resend_aqui
    ```
 
-5. Start the development server:
+5. Inicie o servidor de desenvolvimento:
    ```bash
    npm run dev
    ```
 
-6. Open your browser and navigate to:
+6. Abra seu navegador e acesse:
    ```
    http://localhost:3000
    ```
 
-## 🚀 Deployment
+## 🚀 Deploy
 
-This project is deployed using **Vercel** for its blazing-fast performance and ease of use. You can view the live site [here](https://www.abhijitzende.com/).
+Este projeto pode ser facilmente implantado usando **Vercel** para desempenho rápido e facilidade de uso.
 
-### Setting up Resend API on Vercel
+### Configurando Resend API no Vercel
 
-1. Sign up for a [Resend](https://resend.com) account and get your API key
-2. Go to your Vercel project settings
-3. Navigate to the "Environment Variables" section
-4. Add a new environment variable:
-   - Name: `RESEND_API_KEY`
-   - Value: Your Resend API key
-5. Save the changes and redeploy your application
+1. Crie uma conta no [Resend](https://resend.com) e obtenha sua chave API
+2. Vá para as configurações do seu projeto no Vercel
+3. Navegue até a seção "Environment Variables"
+4. Adicione uma nova variável de ambiente:
+   - Nome: `RESEND_API_KEY`
+   - Valor: Sua chave API do Resend
+5. Salve as alterações e reimplante sua aplicação
 
-Note: Make sure to keep your API key secret and never commit it to your repository.
+**Nota:** Mantenha sua chave API em segredo e nunca a comite no repositório.
 
-## 💖 Acknowledgments
 
-A huge shoutout to [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio) for the inspiration and ideas that sparked this journey! 💡 If you're interested in creative web design, definitely check out his work.
+## 📬 Contato
 
-## 📬 Contact
+Sinta-se à vontade para entrar em contato para colaborações, feedback ou apenas para conversar! 😊
 
-Feel free to reach out to me for collaboration, feedback, or just to say hi! 😊
-
-- **Email:** abhijitzende75@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/zende-abhijit/)
+- **Email:** leonardoalves@alu.ufc.br
+- **LinkedIn:** [Leonardo Alves Braz](https://www.linkedin.com/in/leonardo-alves-braz/)
+- **GitHub:** [Leonardobrzz](https://github.com/Leonardobrzz)
 
 ---
-
-⭐ If you like this project, don't forget to give it a star!
