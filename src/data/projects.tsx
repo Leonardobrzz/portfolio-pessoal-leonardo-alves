@@ -585,5 +585,107 @@ const projects: Project[] = [
       );
     },
   },
+  { // 07. BizBooker Pro
+    id: "bizbookerpro",
+    category: "Web Development",
+    title: "BizBooker Pro - Sistema de Agendamento Profissional",
+    src: "/assets/projects-screenshots/bizbookerpro/interfaceAGENDA.png",
+    screenshots: ["interfaceAGENDA.png"],
+    live: "https://github.com/Leonardobrzz/bizbooker-pro",
+    github: "https://github.com/Leonardobrzz/bizbooker-pro",
+    skills: {
+      frontend: [
+        PROJECT_SKILLS.react,
+        PROJECT_SKILLS.ts,
+        PROJECT_SKILLS.tailwind,
+      ],
+      backend: [
+        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.postgres,
+        PROJECT_SKILLS.prisma,
+      ],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono">
+            BizBooker Pro é uma plataforma completa de agendamento e gestão de negócios desenvolvida
+            com React, TypeScript e Node.js. O sistema oferece ferramentas profissionais para 
+            gerenciamento de agendamentos, clientes e serviços, com interface moderna e intuitiva.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <TypographyH3 className="my-4 mt-8">Funcionalidades Principais</TypographyH3>
+          <p className="font-mono mb-2">
+            • Sistema completo de agendamento online<br/>
+            • Gestão de clientes e histórico de serviços<br/>
+            • Calendário interativo e notificações<br/>
+            • Dashboard com métricas e relatórios<br/>
+            • Interface responsiva e moderna<br/>
+            • Múltiplos perfis de usuário
+          </p>
+          <TypographyH3 className="my-4 mt-8">Stack Técnico</TypographyH3>
+          <p className="font-mono mb-2">
+            • React com TypeScript para type safety<br/>
+            • Node.js para API robusta<br/>
+            • PostgreSQL como banco de dados<br/>
+            • Prisma ORM para gerenciamento de dados<br/>
+            • Tailwind CSS para design moderno<br/>
+            • Autenticação e autorização seguras
+          </p>
+        </div>
+      );
+    },
+  },
+  { // 08. My Rental Hub
+    id: "myrentalhub",
+    category: "Web Development",
+    title: "My Rental Hub - Sistema de Gerenciamento de Aluguéis",
+    src: "/assets/projects-screenshots/myrentalhub/dark.png",
+    screenshots: ["dark.png"],
+    live: "https://github.com/Leonardobrzz/my-rental-hub",
+    github: "https://github.com/Leonardobrzz/my-rental-hub",
+    skills: {
+      frontend: [
+        PROJECT_SKILLS.react,
+        PROJECT_SKILLS.ts,
+        PROJECT_SKILLS.tailwind,
+      ],
+      backend: [
+        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.postgres,
+        PROJECT_SKILLS.prisma,
+      ],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono">
+            My Rental Hub é um sistema completo de gerenciamento de aluguéis desenvolvido com React,
+            TypeScript, Node.js e PostgreSQL. A aplicação oferece autenticação segura, dashboard
+            administrativo e funcionalidades completas para gestão de propriedades e contratos de aluguel.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <TypographyH3 className="my-4 mt-8">Funcionalidades Principais</TypographyH3>
+          <p className="font-mono mb-2">
+            • Sistema de autenticação e autorização<br/>
+            • Dashboard administrativo completo<br/>
+            • Gestão de propriedades e inquilinos<br/>
+            • Controle de contratos de aluguel<br/>
+            • Relatórios e análises financeiras<br/>
+            • Interface responsiva e moderna
+          </p>
+          <TypographyH3 className="my-4 mt-8">Stack Técnico</TypographyH3>
+          <p className="font-mono mb-2">
+            • React com TypeScript para frontend type-safe<br/>
+            • Node.js para backend robusto<br/>
+            • PostgreSQL como banco de dados relacional<br/>
+            • Prisma ORM para acesso ao banco de dados<br/>
+            • Tailwind CSS para estilização moderna<br/>
+            • Autenticação JWT para segurança
+          </p>
+        </div>
+      );
+    },
+  },
 ];
 export default projects;
